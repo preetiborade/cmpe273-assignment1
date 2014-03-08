@@ -15,6 +15,10 @@ public class BookDto extends LinksDto {
 	super();
 	this.book = book;
     }
+    
+    public BookDto(){
+    	super();
+    }
 
     /**
      * @return the book
