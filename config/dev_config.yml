@@ -1,14 +1,13 @@
-
 # HTTP-specific options.
 http:
   # Root Path http://{host}:{port}/xxx
   rootPath: /library/*
 
   # The port on which the HTTP server listens for service requests.
-  port: 8085
+  port: 8080
 
   # The port on which the HTTP server listens for administrative requests.
-  adminPort: 8086
+  adminPort: 8081
 
 # Logging settings.
 logging:
